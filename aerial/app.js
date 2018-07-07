@@ -9,9 +9,9 @@ var SVF = L.imageOverlay(SVFUrl, SVFBounds);
 
 var AP = L.imageOverlay(APUrl, APBounds);
 
-var baseMaps = {"AP":AP,"SVF":SVF}
+var baseMaps = {"SVF":SVF,"AP":AP}
 
-var map = L.map('map', {layers: [AP,SVF],
+var map = L.map('map', {layers: [SVF,AP],
             zoomControl:true, maxZoom:28, minZoom:1,
         }).fitBounds([[56.311251023,-6.42821854016],[56.3156651381,-6.42129866793]]);
 
