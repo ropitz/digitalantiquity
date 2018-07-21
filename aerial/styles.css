@@ -3,11 +3,16 @@ html, body, #map{
   margin: 50;
 }
 
-#instrucions{  
-background-color:#FFCC33;  
-padding: 50px;  
+#instrucions {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
 }
-
+#intro {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
 img {
     display: block;
     margin-left: auto;
