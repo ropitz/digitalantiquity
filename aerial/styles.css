@@ -9,11 +9,10 @@ padding: 50px;
 }
 
 img {
-   position: relative;
-   top: 50%;
-   left: 50%;
-   margin-top: -50px; /* Half the height */
-   margin-left: -50px; /* Half the width */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
 
 p{
